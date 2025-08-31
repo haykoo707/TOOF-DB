@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Atlas connection
-mongoose.connect("mongodb+srv://toof:<db_723968ar>@cluster0.53a3cka.mongodb.net/TOOF?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://toof:723968ar@cluster0.53a3cka.mongodb.net/TOOF?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.log(err));
 
